@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Elnur o’quv markazi — Sifatli ta’lim siz uchun</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="prog"></div>
+<nav><div class="w nb">
+<a href="#home" class="logo"><i>E</i><span>Elnur<small>O’QUV MARKAZI</small></span></a>
+<div class="nl"><a href="#home">Bosh sahifa</a><a href="#advantages">Afzalliklar</a><a href="#about">Biz haqimizda</a><a href="#courses">Kurslar</a><a href="#team">Jamoa</a><a href="#contact">Bog’lanish</a></div>
+<button class="btn sm" onclick="openForm()">Kursga yozilish</button>
+<button id="bg" aria-label="Menyu" onclick="$('#mm').classList.toggle('on')"></button>
+</div>
+<div id="mm"><a href="#home">Bosh sahifa</a><a href="#advantages">Afzalliklar</a><a href="#about">Biz haqimizda</a><a href="#courses">Kurslar</a><a href="#team">Jamoa</a><a href="#contact">Bog’lanish</a><button class="btn" onclick="openForm()">Kursga yozilish</button></div>
+</nav>
+
+<section id="home">
+<div class="bl" style="width:420px;height:420px;background:var(--R);top:-120px;left:-100px"></div>
+<div class="bl" style="width:380px;height:380px;background:var(--G);bottom:-140px;left:35%;animation-delay:-5s"></div>
+<div class="bl" style="width:420px;height:420px;background:var(--B);top:-60px;right:-120px;animation-delay:-9s"></div>
+<div class="w hg">
+<div>
+<span class="chip"><b></b>Xorazmdagi eng katta tabiiy va aniq fanlar markazi</span>
+<h1>Elnur o’quv markazi <br><span class="rgbt">Sifatli ta’lim siz uchun!</span></h1>
+<p class="lead">Malakali ustozlardan dars oling, kelajagingiz poydevorini biz bilan quring va imtihonlarni muvaffaqiyatli topshiring!</p>
+<div class="ba"><button class="btn" onclick="openForm()">Kursga yozilish <span data-i="arrow"></span></button><a href="#courses" class="btn gh">Kurslarni ko’rish</a></div>
+</div>
+<div class="vis"><div class="ring"></div><div class="ec rgbt">E</div>
+<div class="gl" style="top:30px;left:0">2185+<small>talaba bo’lgan o’quvchi</small></div>
+<div class="gl" style="top:150px;right:-6px;animation-delay:-2s">20+<small>tajribali ustoz</small></div>
+<div class="gl" style="bottom:20px;left:30px;animation-delay:-3.5s">6<small>fan yo’nalishi</small></div></div>
+</div>
+</section>
+
+<section id="st"><div class="w sg" id="stats"></div></section>
+
+<section id="advantages"><div class="w">
+<div class="hd rv"><span class="ey rgbt">Nima uchun biz</span><h2>Bizning afzalliklarimiz</h2><p>Har bir o’quvchiga e’tibor, sifat nazorati va qulay muhit — natija shundan boshlanadi.</p></div>
+<div class="g3" id="adv"></div></div></section>
+
+<section id="about"><div class="w ag">
+<div class="ab rv"><i style="width:120px;height:120px;top:-30px;left:-30px"></i><i style="width:80px;height:80px;bottom:30px;right:40px;animation-delay:-3s"></i><span>Elnur O’quv Markazi<br>Jamoasi</span></div>
+<div class="ap rv"><span class="ey rgbt">Biz haqimizda</span><h2>Bilim — kelajak kaliti</h2>
+<p><strong>Elnur o’quv markazi</strong> — Xorazmdagi eng katta, tabiiy va aniq fanlarni o’qitishga ixtisoslashgan ta’lim muassasasi bo’lib, malakali ustozlar tomonidan asos solingan. Markazda o’z sohasining bilimdonlari yetishib kelmoqda. Shu paytgacha 2000 dan ortiq o’quvchiga sifatli ta’lim bergan. Asosiy maqsadimiz — yurtimiz yoshlarining bo’sh vaqtini mazmunli tashkil etish va sifatli ta’limni yuksaltirish.</p>
+<ul class="ck"><li><span data-i="check"></span>Tabiiy va aniq fanlarga ixtisoslashgan</li><li><span data-i="check"></span>Har hafta o’qituvchilar sifati nazorati</li><li><span data-i="check"></span>Ota-onalar uchun online nazorat ilovalari</li></ul></div>
+</div></section>
+
+<section id="courses"><div class="w">
+<div class="hd rv"><span class="ey rgbt">Yo’nalishlar</span><h2>Bizning kurslar</h2><p>O’zingizga mos fanni tanlang — dars jadvali sizning bo’sh vaqtingizga qarab tuziladi.</p></div>
+<div class="g3" id="crs"></div></div></section>
+
+<section id="team" style="background:var(--bg2)"><div class="w">
+<div class="hd rv"><span class="ey rgbt">Ustozlar</span><h2>Bizning jamoa</h2><p>Insonlarga xizmat qilish, ta’lim-tarbiya berish — bizning hayotimizdagi eng oliyjanob va ziyo ulashuvchi maqsadimizdir!</p></div>
+<div class="g3" id="tm"></div></div></section>
+
+<section id="faq"><div class="w">
+<div class="hd rv"><span class="ey rgbt">Savol-javob</span><h2>Ko’p so’raladigan savollar</h2></div>
+<div class="fq rv" id="fq"></div></div></section>
+
+<section id="contact"><div class="w">
+<div class="hd rv"><span class="ey rgbt">Aloqa</span><h2>Bog’lanish</h2><p>Savolingiz bormi? Qo’ng’iroq qiling yoki markazimizga tashrif buyuring.</p></div>
+<div class="kg rv">
+<a class="mp" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Urganch+Ma%27rifatchilar+ko%27chasi+100A"><div class="pin"><i><span data-i="pin" data-s="28"></span></i><b>Elnur o’quv markazi</b><span class="btn sm">Xaritada ochish <span data-i="arrow" data-s="16"></span></span></div></a>
+<div class="ci">
+<div class="r" style="--c:var(--R)"><span class="ico" style="--c:var(--R)" data-i="pin"></span><div><small>Manzil</small><b>Urganch shahar, Ma’rifatchilar ko’chasi 100-A uy</b></div></div>
+<a href="mailto:info@elnur.uz" style="--c:var(--B)"><span class="ico" style="--c:var(--B)" data-i="mail"></span><div><small>Pochta</small><b>info@elnur.uz</b></div></a>
+<a href="tel:+998950351100" style="--c:var(--G)"><span class="ico" style="--c:var(--G)" data-i="phone"></span><div><small>Telefon</small><b>+998 95 035 11 00</b></div></a>
+</div></div></div></section>
+
+<section style="padding-top:0;background:var(--bg2)"><div class="w"><div class="cta rv"><h2>Kelajagingizni bugun boshlang</h2><p>Ariza qoldiring — biz sizga qulay dars jadvalini tanlashda yordam beramiz.</p><button class="btn" onclick="openForm()">Ariza yuborish <span data-i="send"></span></button></div></div></section>
+
+<footer><div class="w"><div class="fg">
+<div><a href="#home" class="logo"><i>E</i><span>Elnur<small>TABIIY FANLAR LOYIHASI</small></span></a><p>Xorazmdagi eng katta, tabiiy va aniq fanlarga ixtisoslashgan o’quv markazi.</p></div>
+<div><h4>Foydali havolalar</h4><a href="#home">Bosh sahifa</a><a href="#courses">Kurslar</a><a href="#about">Biz haqimizda</a><a href="#team">Jamoa</a></div>
+<div><h4>Kontakt ma’lumotlari</h4><a href="tel:+998950351100">+998 95 035 11 00</a><a href="mailto:info@elnur.uz">info@elnur.uz</a><span>Urganch shahar, Ma’rifatchilar 100-A uy</span></div>
+</div><div class="cp">© 2026 Elnur o’quv markazi. Barcha huquqlar himoyalangan.</div></div></footer>
+
+<a class="call" href="tel:+998950351100" aria-label="Qo’ng’iroq qilish"><span data-i="phone" data-s="26"></span></a>
+<div id="ov" onclick="if(event.target===this)closeM()"><div class="md" role="dialog" aria-modal="true" id="md"></div></div>
+
+<script>
+document.documentElement.classList.add('js');
+const $=s=>document.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const P={award:'<circle cx="12" cy="8" r="7"/><path d="M8.21 13.89 7 23l5-3 5 3-1.21-9.12"/>',check:'<path d="M20 6 9 17l-5-5"/>',phone:'<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>',mail:'<rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/>',pin:'<path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>',arrow:'<path d="M5 12h14M12 5l7 7-7 7"/>',x:'<path d="M18 6 6 18M6 6l12 12"/>',menu:'<path d="M3 6h18M3 12h18M3 18h18"/>',users:'<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>',act:'<path d="M22 12h-4l-3 9L9 3l-3 9H2"/>',eye:'<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>',layers:'<path d="m12 2 10 5-10 5L2 7zM2 17l10 5 10-5M2 12l10 5 10-5"/>',home:'<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/>',send:'<path d="M22 2 11 13M22 2l-7 20-4-9-9-4z"/>',chev:'<path d="m6 9 6 6 6-6"/>',cal:'<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>',clock:'<circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>',user:'<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>'};
+const ic=(n,s=22)=>`<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${P[n]}</svg>`;
+const fill=r=>$$('[data-i]',r).forEach(e=>{e.innerHTML=ic(e.dataset.i,+e.dataset.s||22);e.removeAttribute('data-i')});
+$('#bg').innerHTML=ic('menu',28);
+
+const ST=[[20,'Tajribali ustozlar','--R'],[450,'Tahsil olayotgan abituriyentlar','--B'],[36,'Samarali kurslar','--G'],[25,'Yillik tajriba','--R'],[2185,'Biz orqali talaba bo’lgan o’quvchilar','--B']];
+$('#stats').innerHTML=ST.map(s=>`<div class="sc rv"><b class="rgbt" data-n="${s[0]}">0+</b><span>${s[1]}</span></div>`).join('');
+const AD=[['award','Malakali o’qituvchilar','Tajribasi 5–25 yilgacha bo’lgan ustozlardan bilim olish va ustoz-shogird an’anasi asosida tajriba orttirish imkoniyati.'],['act','Bilim sifati monitoringi','Har bir o’qituvchining dars berish sifati har hafta markaz ma’muriyati tomonidan nazorat qilinadi.'],['users','Darsdan tashqari mashg’ulotlar','Coworking zonamizda bepul dars mashg’ulotlarida qatnashish imkoniyati.'],['eye','Muntazam nazorat','Har bir o’quvchi kuzatib boriladi, ota-onalar esa online nazorat ilovalari orqali o’zlashtirishni ko’ra oladi.'],['layers','Samarali o’quv dasturlar','O’quv dasturlarimiz innovatsion metodlarga asoslangan.'],['home','Qulay shart-sharoit','Zamonaviy sinfxonalar va coworking sharoitlari yaratilgan.']];
+const C=['--R','--G','--B'];
+$('#adv').innerHTML=AD.map((a,i)=>`<div class="card rv" style="--c:var(${C[i%3]});transition-delay:${i%3*80}ms"><div class="ico" data-i="${a[0]}" data-s="28"></div><h3>${a[1]}</h3><p>${a[2]}</p></div>`).join('');
+
+const CR=[['🧪','Kimyo','Kimyo fanini nazariy va amaliy tarzda mukammal o’rganing.',['Umumiy va noorganik kimyo','Organik kimyo asoslari','Masala yechish usullari','Test va imtihonga tayyorgarlik'],'Malakali ustozlar'],
+['🧬','Biologiya','Muntazam ravishda biologiya fanini mukammal o’rganing.',['Botanika va zoologiya','Odam anatomiyasi va fiziologiyasi','Sitologiya va genetika','Test va imtihonga tayyorgarlik'],'Hakimjon Abdrimov — oliy toifali o’qituvchi'],
+['📐','Matematika','Matematika darslari o’quvchining bo’sh vaqtiga qarab jadval asosida qo’yiladi.',['Algebra va funksiyalar','Geometriya','Tenglama va tengsizliklar','Test va imtihonga tayyorgarlik'],'Malakali ustozlar'],
+['🌍','Ingliz tili','Ingliz tilini zamonaviy texnologiyalar asosida davomiy ravishda o’rganing.',['Grammatika va lug’at','Speaking va listening','Reading va writing','IELTS tayyorgarligi'],'Otabek Maksudov — IELTS instruktori'],
+['📖','Ona tili va Adabiyot','Ona tili darslari o’quvchining bo’sh vaqtiga qarab jadval asosida qo’yib beriladi.',['Imlo va punktuatsiya','Gap qurilishi va uslubiyat','Adabiyot tahlili','Test va imtihonga tayyorgarlik'],'Malakali ustozlar'],
+['🏛️','Tarix','Tarix fanini chuqurlashtirilgan dastur asosida mutaxassislardan o’rganing.',['O’zbekiston tarixi','Jahon tarixi','Xronologiya va sanalar','Test va imtihonga tayyorgarlik'],'Malakali ustozlar']];
+$('#crs').innerHTML=CR.map((c,i)=>`<div class="card cc rv" style="transition-delay:${i%3*80}ms"><div class="ico">${c[0]}</div><h3>${c[1]}</h3><p>${c[2]}</p><button onclick="openCourse(${i})">Qo’shimcha ma’lumotlar ${ic('arrow',18)}</button></div>`).join('');
+
+const TM=[['Xushnud Azizjanov','Markaz rahbari','XA','Elnur o’quv markazining asoschisi va boshqaruvchisi. Ta’lim sohasida 15 yillik tajribaga ega. Yoshlarga zamonaviy ta’lim berish va ularning kelajagini yaratishda o’z hissasini qo’shib kelmoqda.','#ff2d55','#ff8a3d'],
+['Hakimjon Abdrimov','Biologiya fani oliy toifali o’qituvchisi','HA','20 yillik pedagogik stajga ega. Uning qo’l ostida yuzlab o’quvchilar tibbiyot oliygohlariga yuqori ballar bilan qabul qilingan. Darslarini innovatsion metodlar yordamida olib boradi.','#00c27a','#00a0c8'],
+['Otabek Maksudov','Ingliz tili IELTS instruktori','OM','IELTS 8.0 sertifikatiga ega tajribali mutaxassis. Zamonaviy yondashuv va intensiv darslar orqali o’quvchilarni qisqa vaqt ichida yuqori natijalarga tayyorlaydi.','#2f7bff','#9b5cff']];
+$('#tm').innerHTML=TM.map((t,i)=>`<div class="card tc rv" style="transition-delay:${i*80}ms" onclick="openTeacher(${i})"><div class="av" style="--a:${t[4]};--b2:${t[5]}"><span>${t[2]}</span></div><div class="in"><h3>${t[0]}</h3><p>${t[1]}</p></div></div>`).join('');
+
+const FQ=[['Dars jadvali qanday tuziladi?','Darslar o’quvchining bo’sh vaqtiga qarab jadval asosida qo’yiladi. Toq yoki juft kunlarni hamda ertalabki, tushki yoki kechki vaqtni tanlashingiz mumkin.'],['Ota-onalar farzandini qanday kuzatadi?','Har bir o’quvchi muntazam nazorat qilinadi, ota-onalar esa online ota-ona nazorati ilovalari orqali kuzatib borishi mumkin.'],['Qaysi fanlar o’qitiladi?','Kimyo, Biologiya, Matematika, Ingliz tili, Ona tili va Adabiyot hamda Tarix fanlari.'],['Markaz qayerda joylashgan?','Urganch shahar, Ma’rifatchilar ko’chasi 100-A uy.'],['Kursga qanday yozilaman?','“Kursga yozilish” tugmasi orqali ariza qoldiring yoki +998 95 035 11 00 raqamiga qo’ng’iroq qiling.']];
+$('#fq').innerHTML=FQ.map(f=>`<details><summary>${f[0]}${ic('chev',20)}</summary><p>${f[1]}</p></details>`).join('');
+fill(document);
+
+/* modal */
+const md=$('#md'),ov=$('#ov');
+function show(h){md.innerHTML=`<button class="x" aria-label="Yopish" onclick="closeM()">${ic('x',20)}</button>`+h;ov.classList.add('on');document.body.style.overflow='hidden';md.scrollTop=0}
+function closeM(){ov.classList.remove('on');document.body.style.overflow=''}
+addEventListener('keydown',e=>e.key==='Escape'&&closeM());
+function openCourse(i){const c=CR[i];show(`<div class="big" style="--c:var(${C[i%3]})">${c[0]}</div><h3>${c[1]}</h3><p>${c[2]}</p>
+<div class="cs"><span>${ic('pin',15)}Urganch filiali</span><span>${ic('cal',15)}Toq / juft kunlar</span><span>${ic('clock',15)}Ertalabki · Tushki · Kechki</span></div>
+<h5>Dastur mazmuni</h5><ul class="ck">${c[3].map(t=>`<li>${ic('check',18)}${t}</li>`).join('')}</ul>
+<h5>Ustoz</h5><p>${c[4]}</p>
+<button class="btn" onclick="openForm(${i})">Ariza yuborish ${ic('send',18)}</button>`)}
+function openTeacher(i){const t=TM[i];show(`<div class="av" style="--a:${t[4]};--b2:${t[5]};height:150px;border-radius:20px;margin-bottom:22px"><span>${t[2]}</span></div><h3>${t[0]}</h3><p class="rgbt" style="font-weight:700;display:inline-block;margin-bottom:12px">${t[1]}</p><p style="color:var(--mu)">${t[3]}</p>`)}
+function openForm(ci){$('#mm').classList.remove('on');const o=n=>CR.map((c,i)=>`<option${i===n?' selected':''}>${c[1]}</option>`).join('');
+show(`<h3>Kursga ro’yxatdan o’tish</h3><p>Ma’lumotlaringizni qoldiring, biz siz bilan bog’lanamiz.</p>
+<form id="fm" novalidate><label>Filial</label><select><option>Urganch filiali</option></select>
+<div class="r2"><div><label>Ism <i>*</i></label><input id="fn" placeholder="Ismingiz" autocomplete="given-name"></div><div><label>Familiya</label><input placeholder="Familiyangiz" autocomplete="family-name"></div></div>
+<div class="r2"><div><label>Telefon raqam <i>*</i></label><input id="fp" type="tel" value="+998" inputmode="tel" autocomplete="tel"></div><div><label>Kurs</label><select><option>Kurs tanlang</option>${o(ci)}</select></div></div>
+<div class="r2"><div><label>Dars kunlari</label><select><option>Toq kunlar</option><option>Juft kunlar</option></select></div><div><label>Dars vaqti</label><select><option>Ertalabki</option><option>Tushki</option><option>Kechki</option></select></div></div>
+<label>Izoh</label><textarea rows="3" placeholder="Izoh..."></textarea>
+<button class="btn" type="submit">Ariza yuborish ${ic('send',18)}</button></form>`);
+const p=$('#fp');p.oninput=()=>{p.value='+'+p.value.replace(/\D/g,'').slice(0,12);p.classList.remove('er')};$('#fn').oninput=e=>e.target.classList.remove('er');
+$('#fm').onsubmit=e=>{e.preventDefault();const n=$('#fn'),bad=[];if(n.value.trim().length<2)bad.push(n);if(p.value.length<13)bad.push(p);bad.forEach(x=>x.classList.add('er'));if(bad.length)return bad[0].focus();
+md.innerHTML=`<button class="x" aria-label="Yopish" onclick="closeM()">${ic('x',20)}</button><div class="ok"><i>${ic('check',44)}</i><h3>Arizangiz qabul qilindi!</h3><p style="color:var(--mu)">Rahmat, ${n.value.trim()}! Tez orada siz bilan bog’lanamiz.</p><button class="btn" onclick="closeM()">Yopish</button></div>`}}
+
+/* effects */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);const n=e.target.querySelector('[data-n]');if(n)count(n)}}),{threshold:.15});
+$$('.rv').forEach(e=>io.observe(e));
+function count(el){const t=+el.dataset.n,d=1400,s=performance.now();(function f(n){const k=Math.min((n-s)/d,1);el.textContent=Math.round(t*(1-Math.pow(1-k,3)))+'+';k<1&&requestAnimationFrame(f)})(s)}
+const pr=$('#prog');addEventListener('scroll',()=>{pr.style.width=scrollY/(document.documentElement.scrollHeight-innerHeight)*100+'%'},{passive:true});
+$$('#mm a').forEach(a=>a.onclick=()=>$('#mm').classList.remove('on'));
+</script>
+</body>
+</html>
